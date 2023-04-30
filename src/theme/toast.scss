@@ -1,0 +1,19 @@
+ion-toast{
+  --box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.2);
+  --color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 36px;
+}
+
+ion-toast.alert {
+  --background: #f74646;
+}
+
+ion-toast.warning {
+  --background: #df8f34;
+}
+
+ion-toast.success {
+  --background: #169128;
+}
